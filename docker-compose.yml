@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: payment_db
+    environment:
+      POSTGRES_DB: payment_db
+      POSTGRES_USER: ${DB_USER:-admin}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-admin_pass}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Aqui você deixaria os outros (redis, rabbit, mongo) preparados
+  # mas comentados para economizar memória enquanto estuda a base.
+
+volumes:
+  postgres_data:
