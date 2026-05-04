@@ -32,7 +32,7 @@ src/main/java/dev/leandromoraes/paymentapi
 
 ## ⚙️ Tecnologias
 
-* Java 17+
+* Java 21+
 * Spring Boot
 * Maven
 * PostgreSQL (Docker)
@@ -110,4 +110,4 @@ Em desenvolvimento
 
 ## 👨‍💻 Autor
 
-Leandro Moraes
+Leandro Moraes [https://www.linkedin.com/in/lmoraesdev/]
