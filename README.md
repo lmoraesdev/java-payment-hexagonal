@@ -16,6 +16,12 @@ Simular um sistema real de pagamentos aplicando:
 ---
 
 ## 🏗️ Arquitetura
+
+O sistema segue um fluxo baseado em CI/CD com separação clara entre aplicação, persistência e observabilidade.
+
+![DevOps Flow](./docs/devops-flow.png)
+
+
 ```
 src/main/java/dev/leandromoraes/paymentapi
 ├── adapters
@@ -110,4 +116,4 @@ Em desenvolvimento
 
 ## 👨‍💻 Autor
 
-Leandro Moraes [https://www.linkedin.com/in/lmoraesdev/]
+![Leandro-Moraes](https://www.linkedin.com/in/lmoraesdev/)
