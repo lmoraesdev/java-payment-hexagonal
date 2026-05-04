@@ -21,4 +21,10 @@ public class HealthController {
 
         return Map.of("status", "UP");
     }
+
+    @GetMapping("/error-test")
+    public void error() {
+        throw new RuntimeException("Teste erro");
+    }
+
 }
