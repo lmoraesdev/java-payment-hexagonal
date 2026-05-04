@@ -16,7 +16,7 @@ Simular um sistema real de pagamentos aplicando:
 ---
 
 ## 🏗️ Arquitetura
-
+```
 src/main/java/dev/leandromoraes/paymentapi
 ├── adapters
 │   └── in
@@ -27,7 +27,7 @@ src/main/java/dev/leandromoraes/paymentapi
 │   └── logger
 └── presentation
 └── handler
-
+```
 ---
 
 ## ⚙️ Tecnologias
